@@ -13,6 +13,9 @@
 		AA91DE821ED136FD00634F3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA91DE801ED136FD00634F3C /* Main.storyboard */; };
 		AA91DE841ED136FD00634F3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA91DE831ED136FD00634F3C /* Assets.xcassets */; };
 		AA91DE871ED136FD00634F3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA91DE851ED136FD00634F3C /* LaunchScreen.storyboard */; };
+		AA91DE901ED1482B00634F3C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA91DE8F1ED1482B00634F3C /* CoreGraphics.framework */; };
+		AA91DE921ED1484A00634F3C /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA91DE911ED1484A00634F3C /* CoreImage.framework */; };
+		AA91DE951ED1771D00634F3C /* DLImageFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = AA91DE941ED1771D00634F3C /* DLImageFilter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,10 @@
 		AA91DE831ED136FD00634F3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA91DE861ED136FD00634F3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA91DE881ED136FD00634F3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA91DE8F1ED1482B00634F3C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AA91DE911ED1484A00634F3C /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		AA91DE931ED1771D00634F3C /* DLImageFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLImageFilter.h; sourceTree = "<group>"; };
+		AA91DE941ED1771D00634F3C /* DLImageFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLImageFilter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +40,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA91DE921ED1484A00634F3C /* CoreImage.framework in Frameworks */,
+				AA91DE901ED1482B00634F3C /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +53,7 @@
 			children = (
 				AA91DE761ED136FD00634F3C /* DLImageFilter */,
 				AA91DE751ED136FD00634F3C /* Products */,
+				AA91DE8E1ED1482B00634F3C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +72,8 @@
 				AA91DE7B1ED136FD00634F3C /* AppDelegate.m */,
 				AA91DE7D1ED136FD00634F3C /* ViewController.h */,
 				AA91DE7E1ED136FD00634F3C /* ViewController.m */,
+				AA91DE931ED1771D00634F3C /* DLImageFilter.h */,
+				AA91DE941ED1771D00634F3C /* DLImageFilter.m */,
 				AA91DE801ED136FD00634F3C /* Main.storyboard */,
 				AA91DE831ED136FD00634F3C /* Assets.xcassets */,
 				AA91DE851ED136FD00634F3C /* LaunchScreen.storyboard */,
@@ -77,6 +89,15 @@
 				AA91DE781ED136FD00634F3C /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA91DE8E1ED1482B00634F3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA91DE911ED1484A00634F3C /* CoreImage.framework */,
+				AA91DE8F1ED1482B00634F3C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +175,7 @@
 				AA91DE7F1ED136FD00634F3C /* ViewController.m in Sources */,
 				AA91DE7C1ED136FD00634F3C /* AppDelegate.m in Sources */,
 				AA91DE791ED136FD00634F3C /* main.m in Sources */,
+				AA91DE951ED1771D00634F3C /* DLImageFilter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +334,7 @@
 				AA91DE8D1ED136FD00634F3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
