@@ -22,63 +22,51 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image" translatesAutoresizingMaskIntoConstraints="NO" id="aPp-HL-cOp">
-                                <rect key="frame" x="8" y="28" width="175.5" height="200"/>
+                                <rect key="frame" x="8" y="129" width="175.5" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="sd6-4t-cIG"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="esL-pZ-1To">
-                                <rect key="frame" x="191.5" y="28" width="175.5" height="200"/>
+                                <rect key="frame" x="191" y="129" width="175.5" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="2Mv-oW-1gU"/>
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image" translatesAutoresizingMaskIntoConstraints="NO" id="WCZ-Av-Jpm">
-                                <rect key="frame" x="8" y="236" width="175.5" height="200"/>
+                                <rect key="frame" x="8" y="337" width="175.5" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="8Qw-OV-82c"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="EDs-xn-8Ss">
-                                <rect key="frame" x="191.5" y="236" width="175.5" height="200"/>
+                                <rect key="frame" x="191" y="337" width="175.5" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="YiJ-lk-uLH"/>
                                 </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image" translatesAutoresizingMaskIntoConstraints="NO" id="KVg-Nj-y0h">
-                                <rect key="frame" x="8" y="447" width="175.5" height="200"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="cgI-fo-7va"/>
-                                </constraints>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4e2-9m-uWD">
-                                <rect key="frame" x="191.5" y="447" width="175.5" height="200"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="RKU-Vj-dUk"/>
-                                </constraints>
-                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Filter" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ASj-q7-SEf">
+                                <rect key="frame" x="101" y="88" width="177" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="WCZ-Av-Jpm" firstAttribute="top" secondItem="EDs-xn-8Ss" secondAttribute="top" id="38q-oZ-9oB"/>
-                            <constraint firstItem="esL-pZ-1To" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="3J7-Vw-KnO"/>
-                            <constraint firstItem="aPp-HL-cOp" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="9yI-JP-Qp5"/>
-                            <constraint firstItem="4e2-9m-uWD" firstAttribute="top" secondItem="KVg-Nj-y0h" secondAttribute="top" id="Bv9-QT-9Rt"/>
+                            <constraint firstItem="esL-pZ-1To" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="109" id="3J7-Vw-KnO"/>
+                            <constraint firstItem="aPp-HL-cOp" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="109" id="9yI-JP-Qp5"/>
                             <constraint firstItem="WCZ-Av-Jpm" firstAttribute="trailing" secondItem="aPp-HL-cOp" secondAttribute="trailing" id="Gl0-Hi-qea"/>
-                            <constraint firstItem="4e2-9m-uWD" firstAttribute="width" secondItem="KVg-Nj-y0h" secondAttribute="width" id="J5m-se-gDQ"/>
                             <constraint firstItem="esL-pZ-1To" firstAttribute="leading" secondItem="aPp-HL-cOp" secondAttribute="trailing" constant="8" id="K81-VC-1aX"/>
                             <constraint firstItem="WCZ-Av-Jpm" firstAttribute="top" secondItem="aPp-HL-cOp" secondAttribute="bottom" constant="8" symbolic="YES" id="Kux-Wh-zLz"/>
                             <constraint firstAttribute="trailing" secondItem="esL-pZ-1To" secondAttribute="trailing" constant="8" id="LgV-Qg-cht"/>
                             <constraint firstItem="EDs-xn-8Ss" firstAttribute="leading" secondItem="WCZ-Av-Jpm" secondAttribute="trailing" constant="8" id="Nf6-8r-Lne"/>
                             <constraint firstItem="aPp-HL-cOp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="8" id="RRX-Gb-Nod"/>
-                            <constraint firstItem="WCZ-Av-Jpm" firstAttribute="trailing" secondItem="KVg-Nj-y0h" secondAttribute="trailing" id="Vgz-s8-Fbh"/>
                             <constraint firstItem="WCZ-Av-Jpm" firstAttribute="leading" secondItem="aPp-HL-cOp" secondAttribute="leading" id="WEK-c5-8S8"/>
                             <constraint firstItem="esL-pZ-1To" firstAttribute="width" secondItem="aPp-HL-cOp" secondAttribute="width" id="ZBT-Kc-7Qf"/>
                             <constraint firstItem="EDs-xn-8Ss" firstAttribute="height" secondItem="WCZ-Av-Jpm" secondAttribute="height" id="aWn-kY-gD9"/>
-                            <constraint firstItem="4e2-9m-uWD" firstAttribute="height" secondItem="KVg-Nj-y0h" secondAttribute="height" id="c18-aC-YMS"/>
-                            <constraint firstItem="4e2-9m-uWD" firstAttribute="leading" secondItem="KVg-Nj-y0h" secondAttribute="trailing" constant="8" id="oWA-co-zCI"/>
-                            <constraint firstItem="KVg-Nj-y0h" firstAttribute="top" secondItem="WCZ-Av-Jpm" secondAttribute="bottom" constant="11" id="uS6-vD-HPH"/>
-                            <constraint firstItem="WCZ-Av-Jpm" firstAttribute="leading" secondItem="KVg-Nj-y0h" secondAttribute="leading" id="xbx-GG-dHL"/>
                             <constraint firstItem="EDs-xn-8Ss" firstAttribute="width" secondItem="WCZ-Av-Jpm" secondAttribute="width" id="yOb-ep-1XA"/>
                             <constraint firstItem="esL-pZ-1To" firstAttribute="height" secondItem="aPp-HL-cOp" secondAttribute="height" id="yom-6X-Jvm"/>
                         </constraints>
