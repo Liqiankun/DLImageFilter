@@ -23,6 +23,14 @@
     [self testImageFunc];
 }
 
+- (IBAction)tapOnFilterImageView:(UITapGestureRecognizer *)sender {
+    
+    UIImageView *imageView = (UIImageView *)sender.view;
+    self.imageView.image = imageView.image;
+    
+}
+
+
 -(void)testImageFunc
 {
     UIImage *image = self.imageView.image;
@@ -38,7 +46,6 @@
     unsigned char *hightlightData = [DLImageFilter imageHightlightWithData:imageData size:image.size];
     UIImage *highlightImage = [DLImageFilter covertDataToImage:hightlightData image:image];
     self.imageView_four.image = highlightImage;
-    
     
 }
 
